@@ -87,7 +87,7 @@ export const Files = ({
             type="file"
             required
             className="opacity-0 pointer-events-none w-1"
-            accept=".mdx"
+            accept=".txt"
             multiple={false}
             onChange={async (event) => {
               const file = event.target.files![0];
